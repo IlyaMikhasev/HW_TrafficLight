@@ -1,0 +1,40 @@
+body{
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    width: 175px;
+    height: 400px;
+    margin:25px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    border: 3px solid black;
+    border-radius: 15px;
+}
+.circle{
+    width: 100px;
+    height: 100px;  
+
+    border-radius: 50px;
+    border: 3px solid black;
+    
+    animation-duration: 0.5s;
+}
+#OnOff{
+    width: 50px;
+    padding: 5px;
+
+    border-radius: 7px;
+    border: 1px solid black;
+
+    
+}
